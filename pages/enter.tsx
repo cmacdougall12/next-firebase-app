@@ -25,8 +25,8 @@ function SignInButton() {
     await auth.signInWithPopup(googleAuthProvider);
   };
   return (
-    <button>
-      <img src={"/google.png"} /> Sign in with Google
+    <button className="btn-google">
+      <img src={"/google.png"} width={30} /> Sign in with Google
     </button>
   );
 }
