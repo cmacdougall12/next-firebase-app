@@ -4,6 +4,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage";
 export const fromMillis = firebase.firestore.Timestamp.fromMillis;
 export const serverTimestamp = firebase.firestore.FieldValue.serverTimestamp;
+export const increment = firebase.firestore.FieldValue.increment;
 
 const firebaseConfig = {
   apiKey: "AIzaSyAPHogDOuAbQA-rOVyKb4gxrW-0lL1yL18",
