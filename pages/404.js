@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Custom404() {
   return (
@@ -11,7 +11,7 @@ export default function Custom404() {
         frameBorder="0"
         allowFullScreen
       ></iframe>
-      <Link href="/">
+      <Link href="/" passHref>
         <button className="btn-blue">Go home</button>
       </Link>
     </main>
