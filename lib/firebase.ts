@@ -3,6 +3,7 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import "firebase/compat/storage";
 export const fromMillis = firebase.firestore.Timestamp.fromMillis;
+export const serverTimestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 const firebaseConfig = {
   apiKey: "AIzaSyAPHogDOuAbQA-rOVyKb4gxrW-0lL1yL18",
